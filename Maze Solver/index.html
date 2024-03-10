@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="canvasContainer" >
+        <div id="gridRefContainer" >
+            <p>Maze Refrence</p>
+            <canvas id="canvas"></canvas>
+        </div>
+        <div id="depthContainer" >
+            <p>Depth First</p>
+            <canvas id="canvasDF"></canvas>
+            <p id="DFTime"> Time :  </p>
+        </div>
+        <div id="breadthContainer" >
+            <p>Breadth First</p>
+            <canvas id="canvasBF"></canvas>
+            <p id="BFTime" > Time :  </p>
+
+        </div>
+    </div>
+
+    <div id="btnContainer">
+
+        <button id="clr">Create New</button>
+        <button id="solve"> Solve </button>
+
+
+    </div>
+
+
+    <script src="utils.js"></script>
+    <script src="Walker.js"></script>
+    <script src="Cell.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>

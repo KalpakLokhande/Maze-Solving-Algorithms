@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: radial-gradient(#303030, #000000);
+}
+
+canvas {
+    background: aliceblue;
+}
+
+#canvasContainer{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#btnContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+p{
+    color: aliceblue;
+}
+button{
+
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 10px 14px;
+
+}
